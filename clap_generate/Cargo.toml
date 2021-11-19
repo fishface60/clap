@@ -30,7 +30,7 @@ clap = { path = "../", version = "=3.0.0-rc.4", default-features = false, featur
 
 [dev-dependencies]
 pretty_assertions = "1.0"
-clap = { path = "../", version = "=3.0.0-rc.4", default-features = false, features = ["std", "derive"] }
+clap = { path = "../", version = "=3.0.0-rc.4", default-features = false, features = ["std", "derive", "unstable-multicall"] }
 
 [features]
 default = []
