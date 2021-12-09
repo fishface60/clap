@@ -390,7 +390,7 @@ pub enum AppSettings {
     /// [`ErrorKind::UnknownArgument`]: crate::ErrorKind::UnknownArgument
     AllowExternalSubcommands,
 
-    /// Strip directory path from argv\[0\] and use as an argument.
+    /// Strip directory path from argv\[0\] to use as an argument.
     ///
     /// A "multicall" executable is a single executable
     /// that contains a variety of applets,
